@@ -1,5 +1,5 @@
 const isPrime = (n) => {
-  if (n < 2) return false; // 2'den küçük sayılar asal değildir (n<=1)
+  if (n < 2) return false; // 2'den küçük sayılar asal değildir.
   if (n === 2) return true; // 2 asal sayıdır.
   if (n % 2 === 0) return false; // Çift sayılar asal değildir.
 
