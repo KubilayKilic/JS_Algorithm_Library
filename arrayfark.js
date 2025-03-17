@@ -6,6 +6,7 @@ const ikinciArray = [0, 2, 4, 6, 8];
 const arrayFark = (arr1, arr2) => {
   const farkArr = [];
 
+  // Arrayleri tek tek gezip farklı olanı yeni arraye atar.
   const helperFunction = (first, second) => {
     for (let i = 0; i < first.length; i++) {
       if (second.indexOf(first[i]) === -1) {
